@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<title>Drawing App</title>
+	<link rel="stylesheet" href="master.css">
+	<link rel="stylesheet" href="toolbar.css">
+</head>
+<body style='margin: 0;'>
+	<!--START TOOLBAR-->
+	<div id="toolbar">
+		<div id='rad'>
+			<!--<input type="text" id="radiusbox"/>-->
+			<div id="radinner">
+				<div id="radhandle"></div>
+			</div>
+		</div>
+		<div id="colors"></div>
+		<div id="general">
+			<iframe id="saveiframe" src="" hidden="yes"></iframe>
+			<div id="save">
+				Save
+			</div>
+			<div id="clear">
+				Clear
+			</div>
+		</div>
+		
+	</div>
+	<!--END TOOLBAR-->
+	<canvas style="display:block">
+		I'm sorry. Your browser is terrible.
+	</canvas>
+	<script src="main.js"></script>
+	<script src="save.js"></script>
+	<script src="colors.js"></script>
+	<script src="radius.js"></script>
+</body>
+</html>

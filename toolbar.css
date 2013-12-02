@@ -1,0 +1,79 @@
+#toolbar{
+	background-color: #262626;
+	height: 50px;
+	width: 100%;
+	padding: 10px;
+	position: fixed;
+	top:0;
+	left:0;
+}
+
+#rad{
+	float:left;
+	height: 30px;
+	background-color: #383838;
+	overflow: hidden;
+}
+
+#rad #radinner{
+	float:left;
+	height: 30px;
+	background-color: #717171;
+	box-shadow: inset 0px 1px 0px #8f8f8f;
+}
+
+#rad #radinner #radhandle{
+	float: right;
+	height: 30px;
+	width: 10px;
+	background-color: #cfcfcf;
+	box-shadow: inset 0px 1px 0px white, 0px 0px 2px rgba(0,0,0,0.69);
+}
+
+#colors{
+	float: right;
+	margin-left: 50px;
+}
+
+#colors .swatch{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-left: 10px;
+	border-radius: 15px;
+	box-shadow: inset 0px 1px 1px rgba(255,255,255,0.5), 0px 1px 2px rgba(0,0,0,0.5);
+	border: 0px solid white;
+	transition: border 0.15s;	
+	-webkit-transition: border 0.15s; /* Safari */
+}
+#colors .swatch.active{
+	border: 2px solid white;
+	box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5);
+}
+
+#general{
+	float:right;
+}
+
+#general div{
+	display: inline-block;
+	padding: 6px 12px;
+	margin-left: 5px;
+	height: 30px;
+	border-radius: 15px;
+	box-shadow: inset 0px 1px 1px rgba(255,255,255,0.5), 0px 1px 2px rgba(0,0,0,0.5);
+	color: white;
+	cursor: pointer;
+	background-color: #4b4b4b;
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.5);
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+#general div:hover{
+	background-color: #6e6e6e;
+}
+
+#general div a{
+	color: white;
+}
